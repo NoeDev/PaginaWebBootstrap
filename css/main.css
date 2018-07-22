@@ -1,0 +1,50 @@
+/* PALETTE 1 */
+/* :root{
+    --color1: #ffef96;
+    --color2: #50394c;
+    --color3: #b2b2b2;
+    --color4: #f4e1d2;
+} */
+/* PALLETE 2 */
+/* :root{
+    --color1: #6b5b95;
+    --color2: #feb236;
+    --color3: #d64161;
+    --color4: #ff7b25;
+} */
+/* PALLETE 3 */
+:root{
+    --color1: #d5f4e6;
+    --color2: #80ced6;
+    --color3: #fefbd8;
+    --color4: #618685;
+}
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+header{
+    margin-top: 100px;
+}
+footer{
+    background: url(../img/comp.jpg) repeat-x;
+    padding: 25px 0;
+}
+#testimonial{
+    background:var(--color3);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+/* pading: arriva der abajo izq */
+
+
+.myclass{
+    background-color:var(--color3);
+}
+.bg-primary {
+    background-color:var(--color1) !important;
+  }
+  
+  .bg-dark {
+    background-color: var(--color4) !important;
+  }
